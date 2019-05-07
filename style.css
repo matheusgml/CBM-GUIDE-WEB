@@ -52,7 +52,7 @@ body {
 	font-family: "My Custom Font", Verdana, Tahoma;
 	background-image: url("Background.png");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: cover; -ms-background-size: cover; -o-background-size: cover; -moz-background-size: cover; -webkit-background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 }
@@ -145,7 +145,7 @@ a {
 	margin-right: -100%;
 }
 .content {
-	padding: 20px 50px;
+	padding: 20px 150px ;
 }
 
 .content img {
