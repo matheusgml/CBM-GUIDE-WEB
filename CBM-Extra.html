@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<!--Projeto de WebDesign por Matheus Gregório Marques Lima, RA 0030481823024 -->
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CBM - Class Based Modification</title>
+	<meta name="keywords" content="CBM" />
+	<meta name="description" content="HTML Version of the CBM Guide made by BerserkX33" />
+	<link href="style.css" rel="stylesheet">		
+	<link rel="icon" href="Dot.png">
+</head>
+
+<body>
+<div class="wrapper">
+
+	<header class="header">
+		<img src="CBMTITLE2.png" class="imgheader" alt="Class Based Modification Logo" height="130">
+		<p class="headerStyle" style="color:#eeeeee" align="middle">CLASS BASED MODIFICATION GUIDE</p>
+	</header>
+
+	<div class="middle">
+
+		<div class="container">
+			<main class="content">
+				<p class="contentStyle" style="color:#eeeeee">The Extra Category is for classes that don't really fit a specific game, and as such, don't really belong to any of the other categories. Press the I icon to expand the character's data.</p>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE00X0.png" class="imgRole" alt="MEGAMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">MEGAMAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Basic copy class, hard to master but very useful if allowed to gatter items.</td>
+								<td><img src="ROLE-COPY.png" class="imgRole" alt="ROLE COPY" width="100" align="middle"></td>
+								<td style="color:#eeeeee">90</td>
+								<td style="color:#eeeeee">0.8/0.78</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Plasma Shot. Medium fire-speed, can be Charged.</td>
+								<td style="color:#eeeeee">Slides across the ground at high speed. Dash power reduced on low Slide Ammo.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">Gets Energy Up (better recovery from energy items) from unusable items. Gets Tango Roll from Treble Sentry items.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Mega has the greatest access to items in the game, but suffers with no actual special ability at the start of the game, needing to get support from team members before being able to offer much for the team. With actuall item support though, it is a class with powerful options.</td>
+								<td style="color:#eeeeee">Using any of the Install items (Adapters and Special Busters) while you have the same Install active will allow you to return to your previous state.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE00X5.png" class="imgRole" alt="PROTOMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">PROTOMAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Defensive copy class, mostly duel oriented.</td>
+								<td><img src="ROLE-COPY.png" class="imgRole" alt="ROLE COPY" width="100" align="middle"></td>
+								<td style="color:#eeeeee">83</td>
+								<td style="color:#eeeeee">0.83/0.81</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Plasma Shot. Low fire-speed, can be Charged.</td>
+								<td style="color:#eeeeee">Slides across the ground a long distance. Dash power reduced on low Slide Ammo.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">Gets Proto Strike (Use Alt-Fire with a fully charged Mainfire) from unusable items. Get Proto Coil (From Rush Coil) and Proto Jet (From Rush Jet and Super Adaptor). Gets Tango Roll from Treble Sentry items.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Proto has a more calculated approach to trading, depending on positioning and careful use of Charge Shots to score early kills before packing up on Copy Weapons.</td>
+								<td style="color:#eeeeee">You can block minor shots with your left frontside if you are not shooting or charging.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE00X4.png" class="imgRole" alt="BASS MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">BASS</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Offensive copy class, mostly harass oriented.</td>
+								<td><img src="ROLE-COPY.png" class="imgRole" alt="ROLE COPY" width="100" align="middle"></td>
+								<td style="color:#eeeeee">90</td>
+								<td style="color:#eeeeee">0.75/0.73</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Plasma Shot. Rapid Fire.</td>
+								<td style="color:#eeeeee">Hopping dash across the ground. Dash power reduced on low Slide Ammo. Can be used rapidly one after the other.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">Can Double Jump. Gets Air Dash from unusable items. Gets Treble Sentry from Beat Assist. Gets Treble Coil from Rush Coil. Gets Treble Burst Adapter from Super Adapter.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Bass is mainly a harass class where you will be causing damage to your enemies while not directly facing them. After you get some copy weapons, you will be able to finish off kills more easily.</td>
+								<td style="color:#eeeeee">Of the Copy Classes, Bass is the speed demon, being capable of moving at high speed and jumping easily through obstacles. If you can get his Air Dash, you will be untoucheable.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:80%"></div></td>
+								<td style="color:#eeeeee">8</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE82.png" class="imgRole" alt="DUO MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">DUO</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Tank copy class, mostly brawl oriented.</td>
+								<td><img src="ROLE-COPY.png" class="imgRole" alt="ROLE COPY" width="100" align="middle"></td>
+								<td style="color:#eeeeee">115</td>
+								<td style="color:#eeeeee">0.73/0.71</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Close range attack, can be Charged to become a Plasma Fist Shot.</td>
+								<td style="color:#eeeeee">Tackle dash that knocks foes aside. Dash power reduced on low Slide Ammo.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">Gets Beat Barrier (Reduced Stun) from unusable items and Duo Meteor (Linear Charge) from mobility and Duo Buster items.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Duo is best used to cause pressure on opponents by diving on them and causing close range harass so your teammates can be safe. The class' standard tankiness is amazing for granting that you will be able to get up close and cause trouble before your enemies can get to the lighter members of your team.</td>
+								<td style="color:#eeeeee">Duo is one of the best copy classes for early game thanks to this class' natural tankiness and choice of attacks.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:80%"></div></td>
+								<td style="color:#eeeeee">8</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE00X1.png" class="imgRole" alt="MAESTRO MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">MAESTRO</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">DPS copy class, mostly weapon oriented.</td>
+								<td><img src="ROLE-COPY.png" class="imgRole" alt="ROLE COPY" width="100" align="middle"></td>
+								<td style="color:#eeeeee">75</td>
+								<td style="color:#eeeeee">0.8/0.78</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Plasma Shot. Medium fire-speed.</td>
+								<td style="color:#eeeeee">A Thumbs Up (No use). Turbo fire if you have a weapon equiped.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">Copy Weapons cause Full Damage instead of Reduced Damage like on other Copy Classes. Gets Proto Buster from Power Adapter. Gets Bass Buster from Jet Adapter.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Maestro is one of the hardest copy classes to master simply on the basis that it is completely weapon reliant. If you don't get a good weapon loadout for your situation you will probably be left behind. But having access to the best weapons for the situation (or some help from your teammates to get the harder weapons) will grant you the ultimate firepower, as this class is the only one with access to the true power of the weapons.</td>
+								<td style="color:#eeeeee">Maestro is exclusively weapon based, so make sure to pack up all weapons you can find early in the game so you don't find yourself outclassed. Gets Energy Saver (Extra Ammo for weapons) from unusable items.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:80%"></div></td>
+								<td style="color:#eeeeee">8</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:50%"></div></td>
+								<td style="color:#eeeeee">5</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE00X2.png" class="imgRole" alt="ROCK MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">ROCK</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Special Copy class, with skills that help with crowd control, debuffs and movement.</td>
+								<td><img src="ROLE-COPY.png" class="imgRole" alt="ROLE COPY" width="100" align="middle"></td>
+								<td style="color:#eeeeee">90</td>
+								<td style="color:#eeeeee">0.825/0.805</td>
+								<td style="color:#eeeeee">11</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="25%">Spawns a ball.<br><br>Can be charged.<br><br>Run into it to launch it forward.</td>
+								<td style="color:#eeeeee" width="25%">A close range kick. Charged Main Fire + Alt-Fire causes a stronger ball kick.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee" width="40%">If you use the ball while in mid-air you will headbutt it forward.<br><br>If you spawn it on the ground, you can use it as a trampoline.<br><br>Can get Copy Weapons for more kinds of balls. If you drop the ball while airborn and looking downward, you will be boosted upwards.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="40%">Rock is a class with access to special balls, that each have special effects that grant you support abilities for specific situations. Learning how to set up your balls can be key to allowing your team to capitalize kills or escapes.</td>
+								<td style="color:#eeeeee" width="60%">There are 9 main types of balls:<br><br>Rock: Bounces on surfaces;<br><br>Time: Slow ball with delay effect;<br><br>Oil: Leave a trail of oil that can cause damage or be ignited;<br><br>Cut: Ripping ball that isn't affected by gravity;<br><br>Ice: Ice ball that causes slowness;<br><br>Bomb: Explosive ball;<br><br>Fire: Fire ball that has boosted reach;<br><br>Elec: Fast ball that bounces rapidly;<br><br>Guts: Stone ball that shatters into multiple scraps.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:80%"></div></td>
+								<td style="color:#eeeeee">8</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE0RX3.png" class="imgRole" alt="ROLL MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">ROLL</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Support class with healing and crowd control abilities.</td>
+								<td><img src="ROLE-SUPPORT.png" class="imgRole" alt="ROLE SUPPORT" width="100" align="middle"></td>
+								<td style="color:#eeeeee">90</td>
+								<td style="color:#eeeeee">0.825/0.805</td>
+								<td style="color:#eeeeee">11</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Swings can deflect/block most projectiles.<br><br>Second swing can fling enemies back.<br><br>Secondary weapon is a bucket of water that can stun enemies.</td>
+								<td style="color:#eeeeee">A dash that resets all momentum and you can attack right after the dash. Can also be used in the air.</td>
+								<td style="color:#eeeeee">Summons Health Pick Up. In team fights you are healed too after summoning it. It can cause a cosntant area heal or a potent heal if picked up.</td>
+								<td style="color:#eeeeee">Can pick up screws to recharge the Item "Roll's Rest Time" (Health Pick Up).</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Roll is a class that is great at emergency saves. Either filling the floor with stunning globs of water to secure a escape, sending the diving enemies flying away with the broom or leaving health pick ups for friends to get, this class is perfect for those that don't really care for picking kills for themselves.</td>
+								<td style="color:#eeeeee">Run alongside either a Direct or Indirect DPS class to get the screws from their kills to recharge your item while you keep them alive. Keeping your reserves high is a great way of granting victory.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:50%"></div></td>
+								<td style="color:#eeeeee">5</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:90%"></div></td>
+								<td style="color:#eeeeee">9</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE00X6.png" class="imgRole" alt="AUTO MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">AUTO</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Support class with item crafting skills.</td>
+								<td><img src="ROLE-SUPPORT.png" class="imgRole" alt="ROLE SUPPORT" width="100" align="middle"></td>
+								<td style="color:#eeeeee">115</td>
+								<td style="color:#eeeeee">0.825/0.805</td>
+								<td style="color:#eeeeee">11</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Auto Bazooka: A big slow moving rocket grenade that explodes on impact.<br><br>Auto Craft: Spend your current screws to craft the currently selected item.</td>
+								<td style="color:#eeeeee">Finger Up: Just a taunt.<br><br>Auto Select: Select what item you want to craft.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">Items you can craft:<br><br>Auto Improvement: Improves your Auto Bazooka (Can be stacked up to 3 times).<br><br>Hard Hat: Increases you maximun health.<br><br>"e" Tank: Create a minor E-Tank that heals half of the current health of the user.<br><br>Carry: Creates a Carry Item that can be used to create temporary plataforms.<br><br>Item-2: Creates an Item-2 Item that can be used to create a jet plataform.<br><br>Wire Adapter: Creates an Wire Adapter Item that can be used to hookshot your way through surfaces.<br><br>Exit: Creates an Exit Item that can be used to teleport to a random place on the map.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Auto is a strange class at first but is extremely dangerous as time goes on. Collecting screws allows it constantly improve itself to the point where it can outdamage and outlive most classes, and on the worst of cases, it can give it's own teammates some extremely needed utility items.</td>
+								<td style="color:#eeeeee">If you use Auto, the first thing you have to understand is how much you can coordinate with your team (Or if you have a team at all) and decide what is your gameplay focus.<br><br>Auto's self improvement items are your main focus if you want to play alone. But if you are doing team support, spreading you screws in between giving your team mates items and improving yourself is a great idea.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:40%"></div></td>
+								<td style="color:#eeeeee">4</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:90%"></div></td>
+								<td style="color:#eeeeee">9</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE00XL.png" class="imgRole" alt="DR. LIGHT MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">DR.<br>LIGHT</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Brawling direct DPS class, with focus on constant combat to increase their firepower.</td>
+								<td><img src="ROLE-DIRECT-DPS.png" class="imgRole" alt="ROLE DIRECT-DPS" width="100" align="middle"></td>
+								<td style="color:#eeeeee">90</td>
+								<td style="color:#eeeeee">0.825/0.805</td>
+								<td style="color:#eeeeee">12</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">A big fireball.<br><br>Hitting targets give you ammo.<br><br>Main Fire + Alt-Fire will spend 1 ammo bar for a more powerful version that causes burning.</td>
+								<td style="color:#eeeeee">Dash forward with a spinning kick.<br><br>Pressing Main Fire before the animation starts causes you to do a melee spinning kick that causes more damage.<br><br>Pressing Main Fire after you start spinning will make you uppercut, sending your target up. It will consume stamine to use the spinning kick, making it less useful for mobility but better at close range trades.</td>
+								<td style="color:#eeeeee">If your Ammo meter is full, you can use this item to make your next attack become a super attack:<br><br>Main Fire: A huge fireball with a suction effect;<br><br>Alt-Fire: A very strong melee uppercut.</td>
+								<td style="color:#eeeeee">None</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Dr. Light is a class for those that want to be constantly trading blows. Your ammo reserves charge faster if you are hitting your enemy and your augmented attacks are amazing kill moves. Knowing how to approach an enemy is key to mastering this class.</td>
+								<td style="color:#eeeeee">Your Alt-Fire and all of it's variations are amazing mobility moves, knowing how to use them properly allow you access even the hardest spots on the maps.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:90%"></div></td>
+								<td style="color:#eeeeee">9</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:50%"></div></td>
+								<td style="color:#eeeeee">5</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE73.png" class="imgRole" alt="DR. WILY MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">DR.<br>WILY</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Tranforming indirect DPS class, focused on managing resources.</td>
+								<td><img src="ROLE-INDIRECT-DPS.png" class="imgRole" alt="ROLE INDIRECT-DPS" width="100" align="middle"></td>
+								<td style="color:#eeeeee">85</td>
+								<td style="color:#eeeeee">0.8/0.78</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Base form: Waving shots;<br><br>Armor form: Big fireballs that become stronger the more ammo you have;<br><br>Saucer form: Two kinds special shots:<br><br>- Fire Shot: Causes burn;<br><br>- Ice Shot: Causes stun but makes them invulnerable.</td>
+								<td style="color:#eeeeee">Base form: Hits with a pan;<br><br>Armor form: Waving shot;<br><br>Saucer form: Electric shot that goes to the ground;</td>
+								<td style="color:#eeeeee">Activate with full Morph Bar to change to the next form.</td>
+								<td style="color:#eeeeee">While on base form, you take more damage.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Dr. Wily is a class for those that will wait around for a good opportunity and will all in and use the remaining of your resources to escape safely. Knowing when to engage is key to learning this class properly.</td>
+								<td style="color:#eeeeee">Using you base form is not an overall disadvantage. Being aware that you can bait people into diving you, changing into Armor form and taking them down is a viable strategy and allows you some easy early kills.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:80%"></div></td>
+								<td style="color:#eeeeee">8</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:40%"></div></td>
+								<td style="color:#eeeeee">4</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:80%"></div></td>
+								<td style="color:#eeeeee">8</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE00XJ.png" class="imgRole" alt="SNIPER JOE MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">SNIPER<br>JOE</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Defensive indirect DPS class, with focus on building up resources.</td>
+								<td><img src="ROLE-INDIRECT-DPS.png" class="imgRole" alt="ROLE INDIRECT-DPS" width="100" align="middle"></td>
+								<td style="color:#eeeeee">100</td>
+								<td style="color:#eeeeee">0.8/0.78</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Base form Buster: Small shot with standard damage;<br><br>Base form Machinegun: Rapid-fire shots;<br><br>Truck form: Run over your targets;<br><br>Apache form: Rapid-fire shots.</td>
+								<td style="color:#eeeeee">Base form: Throw a grenade. Can be charged for extra distance. If you charge the grenade to it's limit it will instead explode, boosting you. With the machinegun it can be shot rapid fire style;<br><br>Truck form: Reverse run over;<br><br>Apache: Drops explosives.</td>
+								<td style="color:#eeeeee">Not with full bar: Recharges Machine Gun.<br><br>With full bar: Drops reinforcment crate allowing you to either transform on the Truck or Apache forms.</td>
+								<td style="color:#eeeeee">Spawn scoreballs on kills or assists that fill you reinforcment gauge faster.<br><br>Truck form is faster and Apache form flies.<br><br>On base form you can block smaller shots with your front-leftside. After those form finish, you will return to your normal form with a full machinegun magazine.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Sniper Joe is a class for those that want to play safely, helping their team until they have enough resources to mow down on the enemy team. Saving the reinforcment box for the best moment is key for scoring kills.</td>
+								<td style="color:#eeeeee">Working alongside your team at first is important as you can get scoreballs more easily, and once you get the full charge, change to a more offensive style, taking your enemies by surprise.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+			</main>
+		</div>
+
+		<aside class="left-sidebar">
+			<a href="CBM-Main.html" style="color:#eeeeee">Home</a><br>
+			<a href="CBM-Roles.html" style="color:#eeeeee">Roles</a><br>
+			<a href="CBM-Extra.html" style="color:#eeeeee">Extra</a><br>
+			<a href="CBM-MM1.html" style="color:#eeeeee">Mega Man 1</a><br>
+			<a href="CBM-MM2.html" style="color:#eeeeee">Mega Man 2</a><br>
+			<a href="CBM-MM3.html" style="color:#eeeeee">Mega Man 3</a><br>
+			<a href="CBM-MM4.html" style="color:#eeeeee">Mega Man 4</a><br>
+			<a href="CBM-MM5.html" style="color:#eeeeee">Mega Man 5</a><br>
+			<a href="CBM-MM6.html" style="color:#eeeeee">Mega Man 6</a><br>
+			<a href="CBM-MM7.html" style="color:#eeeeee">Mega Man 7</a><br>
+			<a href="CBM-MM8.html" style="color:#eeeeee">Mega Man 8</a><br>
+			<a href="CBM-MM&B.html" style="color:#eeeeee">Mega Man & Bass</a><br>
+			<a href="CBM-MM9.html" style="color:#eeeeee">Mega Man 9</a><br>
+			<a href="CBM-Other.html" style="color:#eeeeee">Other</a><br>		
+	</div>
+
+	<footer class="footer">
+		<p class="footerStyle" style="color:#eeeeee" align="middle">The CLASS BASED MODIFICATION GUIDE was made by BerserkX33 for use alongside the CLASS BASED MODIFICATION mod by Celebi and the CBM Team for Megaman 8-bit Death Match by Cut'n'Stuff</p>
+	</footer>
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+	<script>
+		function changeImage() {
+
+        if (document.getElementById("InfoButton").src == "INFO.png") 
+        {
+            document.getElementById("InfoButton").src = "INFOP.png";
+        }
+        else 
+        {
+            document.getElementById("InfoButton").src = "INFO.png";
+        }
+    }
+	</script>	
+</div>
+</body>
+
+</html>

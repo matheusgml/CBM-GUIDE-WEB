@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<!--Projeto de WebDesign por Matheus Gregório Marques Lima, RA 0030481823024 -->
+    
+
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CBM - Class Based Modification</title>
+	<meta name="keywords" content="CBM" />
+	<meta name="description" content="HTML Version of the CBM Guide made by BerserkX33" />
+	<link href="style.css" rel="stylesheet">		
+	<link rel="icon" href="Dot.png">
+</head>
+
+<body>
+<div class="wrapper">
+
+	<header class="header">
+		<img src="CBMTITLE2.png" class="imgheader" alt="Class Based Modification Logo" height="130">
+		<p class="headerStyle" style="color:#eeeeee" align="middle">CLASS BASED MODIFICATION GUIDE</p>
+	</header>
+
+	<div class="middle">
+
+		<div class="container">
+			<main class="content">
+				<p class="contentStyle" style="color:#eeeeee">The Mega Man 4 category covers the characters from the original Mega Man 4/Rockman 4 game and it's remakes/spin-offs.</p>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE38.png" class="imgRole" alt="BRIGHTMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">BRIGHT<br>MAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Debuff indirect DPS class, focused on crowd control.</td>
+								<td><img src="ROLE-INDIRECT-DPS.png" class="imgRole" alt="ROLE INDIRECT-DPS" width="100" align="middle"></td>
+								<td style="color:#eeeeee">85</td>
+								<td style="color:#eeeeee">0.84/0.82</td>
+								<td style="color:#eeeeee">12</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Normal speed shots have a slight spread but don't go too far.</td>
+								<td style="color:#eeeeee">Throws a bulb to blind foes. Your blind effect lasts longer right after a flash stopper.</td>
+								<td style="color:#eeeeee">Performs a flash stopper, that freezes foes in place (they can still attack). Pain causes the freeze to end early.</td>
+								<td style="color:#eeeeee">Can walljump up to 2 times before landing.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Bright as a class is pretty capable of disabling a target comepletely before finishing it off, and it's fast attack speed alows the user to take care of enemies that may be hard to hit with your debuffs.</td>
+								<td style="color:#eeeeee">Since pain undoes the effect of the Flash Stopper, your best choice on 1 on 1 combats is to hit them first with the bulb and than use the Flash Stopper, this way you will be able to negate both mobility and sight.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:50%"></div></td>
+								<td style="color:#eeeeee">5</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:80%"></div></td>
+								<td style="color:#eeeeee">8</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE34.png" class="imgRole" alt="TOADMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">TOADMAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">AOE off-tank class, focused on dealing with multiple enemies.</td>
+								<td><img src="ROLE-OFFTANK.png" class="imgRole" alt="ROLE OFFTANK" width="100" align="middle"></td>
+								<td style="color:#eeeeee">155</td>
+								<td style="color:#eeeeee">0.8/0.78</td>
+								<td style="color:#eeeeee">15</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Makes an AOE rain that causes constant damage. Rain can be held to extend it's effects. If you activate it while moving you will slowly lose momemtum before standing still.</td>
+								<td style="color:#eeeeee">Leaps forward ignoring hitstun. Can leapfrog on enemy's head.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">None</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Abusing your high mobility allows you to prepare for combat. You don't need to kill your enemies on a single attack. Prepare your attack while leaping to land with your attack activating. Knowing how to alternate in between leaping and attacking is important.</td>
+								<td style="color:#eeeeee">Leap frog is kind of hard to land, but training it is useful, specially since you don't need to look at your target to hurt them, look for a camera angle that makes you more confortable with leaping.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:80%"></div></td>
+								<td style="color:#eeeeee">8</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:50%"></div></td>
+								<td style="color:#eeeeee">5</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE33.png" class="imgRole" alt="DRILLMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">DRILLMAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Flanking direct DPS class, focused on invading.</td>
+								<td><img src="ROLE-DIRECT-DPS.png" class="imgRole" alt="ROLE DIRECT-DPS" width="100" align="middle"></td>
+								<td style="color:#eeeeee">85</td>
+								<td style="color:#eeeeee">0.75/0.73</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Sends a bomb forward that explodes on contact.</td>
+								<td style="color:#eeeeee">Digs rapidly through the ground to traverse terrain. Your ammo recharges faster if you are underground. You can dive on people to hurt them.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">None</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Your Drill Bombs are pretty rapid fire but their ammo goes down just as fast. To keep a constant damage output, learn the best way to alternate digging and shooting to get a more constant output of damage.</td>
+								<td style="color:#eeeeee">The moment you come out of the ground during your digging will cause you to leap pretty high. Floating plataforms or plataforms that are hard to access using your digging can be more easily accessed by using that leap.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:90%"></div></td>
+								<td style="color:#eeeeee">9</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:50%"></div></td>
+								<td style="color:#eeeeee">5</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE31.png" class="imgRole" alt="PHARAOHMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">PHARAOH<br>MAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Heavy Damage direct DPS class, focused on prepared attacks.</td>
+								<td><img src="ROLE-DIRECT-DPS.png" class="imgRole" alt="ROLE DIRECT-DPS" width="100" align="middle"></td>
+								<td style="color:#eeeeee">100</td>
+								<td style="color:#eeeeee">0.8/0.78</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">A chargeable shot that explodes on contact or on surfaces.</td>
+								<td style="color:#eeeeee">Hovers forward. If you have your Main Fire fully charged, you will instead explode on multiple energy waves.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">None</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Your fully charged attacks are both the most important tools of your kit. Starting a fight with a Pharaoh Shot (The explosive ball) and hugging an enemy and throwing Pharaoh Waves (The waves that explode out of you) or use other strategies like that to cause a lot of damage.</td>
+								<td style="color:#eeeeee">Your hover keeps you on a constant altitude. Keep that in mind and access hard places using it (moving in between high places, crossing under bridges or passages, escape through dangerous paths, etc).</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:80%"></div></td>
+								<td style="color:#eeeeee">8</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE36.png" class="imgRole" alt="RINGMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">RINGMAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Tricky direct DPS class, focused on odd angles.</td>
+								<td><img src="ROLE-DIRECT-DPS.png" class="imgRole" alt="ROLE DIRECT-DPS" width="100" align="middle"></td>
+								<td style="color:#eeeeee">85</td>
+								<td style="color:#eeeeee">0.8/0.78</td>
+								<td style="color:#eeeeee">13</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Throws your left ring or recalls it. Rings bounce on surfaces and cause more damage after a set distance (marked by a sparkle).</td>
+								<td style="color:#eeeeee">Throws your right ring or recalls it. Rings bounce on surfaces and cause more damage after a set distance (marked by a sparkle).</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">None</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">There is no much use to keep the rings flying too much after the spark if they are bouncing on surfaces, since their speed will go down imensily. Learn how to time it properly as to cause the most damage in closed spaces or snipe your enemies from affar.</td>
+								<td style="color:#eeeeee">Closed spaces will give you multiple chances of hitting your target on a single shot. Learn to capitalize on that.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:100%"></div></td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:50%"></div></td>
+								<td style="color:#eeeeee">5</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:50%"></div></td>
+								<td style="color:#eeeeee">5</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE35.png" class="imgRole" alt="DUSTMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">DUSTMAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Heavy off-tank class, focused on recycling resources.</td>
+								<td><img src="ROLE-OFFTANK.png" class="imgRole" alt="ROLE OFFTANK" width="100" align="middle"></td>
+								<td style="color:#eeeeee">125</td>
+								<td style="color:#eeeeee">0.7/068</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">While you have ammo, Dust Crusher will send large chunks of junk that spread on contact and Dust Shooter will send small scraps on a slight spread. The spread leaves scraps.<br><br>If you don't have ammo, you will shoot medium speed normal plasma shots.</td>
+								<td style="color:#eeeeee">Sucks foes towards your. Can suck in scraps too.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">Can pick up scraps on the floor.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Your ammo charges slowly, don't count on it fight at first. Start by helping your teammates getting kills and collect the scraps. Once you have atleast half of your bar, you can more safely trade without the fear of running out of juice if you know how keep your supply close.</td>
+								<td style="color:#eeeeee">Pulling enemies close may not cause damage, but it will grant you an easier time keeping the fight close, facilitating on hiting your enemy and keeping your scraps close.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE32.png" class="imgRole" alt="DIVEMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">DIVEMAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Dueling indirect DPS class, focused on single targets.</td>
+								<td><img src="ROLE-INDIRECT-DPS.png" class="imgRole" alt="ROLE INDIRECT-DPS" width="100" align="middle"></td>
+								<td style="color:#eeeeee">100</td>
+								<td style="color:#eeeeee">0.8/0.78</td>
+								<td style="color:#eeeeee">10</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Send a rapid fire of missiles. Hit enemy with the first missile to lock on them. Every 8 subsequent missiles will try to home on this target.</td>
+								<td style="color:#eeeeee">Mines: Shoot a mine forward that stay in place.<br><br>Torpedo Headbutt: Tackle forward.</td>
+								<td style="color:#eeeeee">Clear the target of your homing missiles.</td>
+								<td style="color:#eeeeee">None</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">The rapid fire nature of the Main Fire gives you an easy time trying to get someone marked for your homing missiles. After that start mixing it up with mines and torpedo headbutts to cause a lot of damage and finish your target off by using your homing missiles.</td>
+								<td style="color:#eeeeee">Once you mark an enemy, you don't really need to commit to killing it. Be smart and use the ability to clear your targets to choose a new target if you fell like it is a better decision.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div id="block_container">
+					<div id="bloc1" width="30%">
+						<table>
+							<tr>
+								<th><img src="FACE/FACE37.png" class="imgRole" alt="SKULLMAN MUGSHOT" width="100" align="middle"></th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">SKULLMAN</td>
+							</tr>
+						</table>
+					</div>
+					<div id="bloc2">
+						<button class="collapsible"><img src="INFO.png" id="InfoButton" class="imgRole" alt="INFORMATION" width="40" align="middle" onmousedown="changeImage()"></button>
+						<div class="contentC">
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Description</th>
+								<th style="color:#eeeeee">Role</th>
+								<th style="color:#eeeeee">Health</th>
+								<th style="color:#eeeeee">Speed</th>
+								<th style="color:#eeeeee">Jump</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee" width="100%">Dueling protector class, focused on counter attacks.</td>
+								<td><img src="ROLE-PROTECTOR.png" class="imgRole" alt="ROLE PROTECTOR" width="100" align="middle"></td>
+								<td style="color:#eeeeee">85</td>
+								<td style="color:#eeeeee">0.8/0.78</td>
+								<td style="color:#eeeeee">12</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Main Fire</th>
+								<th style="color:#eeeeee">Alt-Fire</th>
+								<th style="color:#eeeeee">Item</th>
+								<th style="color:#eeeeee">Extra</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">A normal shot that gets weaker with distance. If you have Rage active, your shots will not decay and you will shoot faster.</td>
+								<td style="color:#eeeeee">Activate Skull Barrier and block an attack. If timed imediately as you are to get hit, you will get Rage, otherwise just stays until you get hit again.</td>
+								<td style="color:#eeeeee">None</td>
+								<td style="color:#eeeeee">None</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Info</th>
+								<th style="color:#eeeeee">Tips</th>
+							</tr>
+							<tr>
+								<td style="color:#eeeeee">Train yourself to get well with parrying shots with your Skull Barrier, as Rage is your bread and butter on trades. The attack buff over the extra hit for the shield is important to get an edge against your enemies.</td>
+								<td style="color:#eeeeee">Don't fret if you didn't get the Rage right. The extra hit of the base shield will allow you enough time to restart your approach and try again.</td>
+							</tr>
+						</table>
+						<table>
+							<tr>
+								<th style="color:#eeeeee">Stats</th>
+								<th style="color:#eeeeee" width="100%" colspan="2">Values</th>
+							</tr>
+							<tr>
+								<td><img src="ROLE-DAMAGE.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-red" style="height:24px;width:60%"></div></td>
+								<td style="color:#eeeeee">6</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-SUSTAIN.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-blue" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+							<tr>
+								<td><img src="ROLE-UTILITY.png" class="imgRole" alt="DAMAGE STAT" width="100" align="middle"></td>
+								<td style="color:#eeeeee" width="100%"><div class="w3-green" style="height:24px;width:70%"></div></td>
+								<td style="color:#eeeeee">7</td>
+							</tr>
+						</table>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+			</main>
+		</div>
+
+		<aside class="left-sidebar">
+			<a href="CBM-Main.html" style="color:#eeeeee">Home</a><br>
+			<a href="CBM-Roles.html" style="color:#eeeeee">Roles</a><br>
+			<a href="CBM-Extra.html" style="color:#eeeeee">Extra</a><br>
+			<a href="CBM-MM1.html" style="color:#eeeeee">Mega Man 1</a><br>
+			<a href="CBM-MM2.html" style="color:#eeeeee">Mega Man 2</a><br>
+			<a href="CBM-MM3.html" style="color:#eeeeee">Mega Man 3</a><br>
+			<a href="CBM-MM4.html" style="color:#eeeeee">Mega Man 4</a><br>
+			<a href="CBM-MM5.html" style="color:#eeeeee">Mega Man 5</a><br>
+			<a href="CBM-MM6.html" style="color:#eeeeee">Mega Man 6</a><br>
+			<a href="CBM-MM7.html" style="color:#eeeeee">Mega Man 7</a><br>
+			<a href="CBM-MM8.html" style="color:#eeeeee">Mega Man 8</a><br>
+			<a href="CBM-MM&B.html" style="color:#eeeeee">Mega Man & Bass</a><br>
+			<a href="CBM-MM9.html" style="color:#eeeeee">Mega Man 9</a><br>
+			<a href="CBM-Other.html" style="color:#eeeeee">Other</a><br>		
+	</div>
+
+	<footer class="footer">
+		<p class="footerStyle" style="color:#eeeeee" align="middle">The CLASS BASED MODIFICATION GUIDE was made by BerserkX33 for use alongside the CLASS BASED MODIFICATION mod by Celebi and the CBM Team for Megaman 8-bit Death Match by Cut'n'Stuff</p>
+	</footer>
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				var content = this.nextElementSibling;
+				if (content.style.display === "block") {
+					content.style.display = "none";
+				} else {
+					content.style.display = "block";
+				}
+			});
+		}
+	</script>
+	<script>
+		function changeImage() {
+
+        if (document.getElementById("InfoButton").src == "INFO.png") 
+        {
+            document.getElementById("InfoButton").src = "INFOP.png";
+        }
+        else 
+        {
+            document.getElementById("InfoButton").src = "INFO.png";
+        }
+    }
+	</script>	
+
+</div>
+</body>
+
+</html>
